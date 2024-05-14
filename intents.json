@@ -1,0 +1,146 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey, Welcome to Virtual Lab",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, keep learning",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "What are the practicals I can learn?",
+        "What kinds of practicals are there?",
+        "What do you have?"
+      ],
+      "responses": [
+        "You can learn practicals based on the stream you choosen"
+      ]
+    },
+    {
+      "tag": "Quiz",
+      "patterns": [
+        "Do you take quizes?",
+        "How Can I attempt quizes?",
+        "Can do quiz?",
+        "How can I do quizes"
+      ],
+      "responses": [
+        "You have quiz for each practicals",
+        "In quiz you can get instant answer and percentage for whole subject"
+      ]
+    },
+    {
+      "tag": "Subjects",
+      "patterns": [
+        "What are the subjects you have?",
+        "how many subjects you have?",
+        "How can I select subjects?"
+      ],
+      "responses": [
+        "you can selct stream when you are registering",
+        "Subjects will be disappear based on the stream you select when you are register"
+      ]
+    },
+    {
+      "tag": "PracticalLists",
+      "patterns": [
+        "how to complete practical",
+        "Tell me about practicals"
+      ],
+      "responses": [
+        "You can get theory part of the practical, steps for complete practicals, images will be generated for each steps"
+      ]
+    },
+    {
+      "tag": "difficulty",
+      "patterns": [
+        "Is this practical difficult?",
+        "How hard is this practical?",
+        "Difficulty level of this practical?"
+      ],
+      "responses": [
+        "The difficulty level varies depending on the practical. Some are easy to follow, while others may require more effort."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "I need help",
+        "Can you assist me?",
+        "Help me with this practical"
+      ],
+      "responses": [
+        "Sure, I'm here to help! What do you need assistance with?"
+      ]
+    },
+    {
+      "tag": "resources",
+      "patterns": [
+        "Are there any additional resources?",
+        "Where can I find more information?",
+        "Any recommended readings?"
+      ],
+      "responses": [
+        "Yes, we provide additional resources such as articles, videos, and reference materials to enhance your learning experience."
+      ]
+    },
+    {
+      "tag": "progress",
+      "patterns": [
+        "How can I track my progress?",
+        "Is there a way to monitor my performance?",
+        "Can I see my progress?"
+      ],
+      "responses": [
+        "You can track your progress through our dashboard, where you'll find statistics, quizzes scores, and completion status for each practical."
+      ]
+    },
+    {
+      "tag": "feedback",
+      "patterns": [
+        "Can I provide feedback?",
+        "How can I give my opinion?",
+        "Do you accept suggestions?"
+      ],
+      "responses": [
+        "Absolutely! We value your feedback. You can provide your opinions and suggestions through our feedback form or directly contact our support team."
+      ]
+    },
+    {
+      "tag":"Function",
+      "patterns":[
+        "what do you do",
+        "what do you have", 
+        "What I can do here"
+      ],
+      "responses":[
+        "You can get practicals with genereted image, quizes, and get feedback"
+      ]
+    }
+  ]
+}
